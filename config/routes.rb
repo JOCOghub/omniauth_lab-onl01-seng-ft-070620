@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   match '/auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
   
-  get 'root' to: 'welcome#home'
+  get 'root' => 'welcome#home'
 end
