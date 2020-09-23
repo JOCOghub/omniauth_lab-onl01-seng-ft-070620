@@ -3,3 +3,4 @@ Rails.application.routes.draw do
   
   get 'root' => 'welcome#home'
 end
+end
